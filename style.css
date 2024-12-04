@@ -1,0 +1,34 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.calculator {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 400px;
+    border: 2px solid #ff9fe6;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+input[type="number"], select, button {
+    width: calc(100% - 20px);
+    margin: 10px;
+    padding: 10px;
+    font-size: 1rem;
+}
+button {
+    background-color: #ee4ec3;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff00bb;
+}
+.result {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
